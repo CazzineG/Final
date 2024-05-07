@@ -1,0 +1,184 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: 'Android';
+    src: url('../fontes/idroid.otf'), format('opentype');
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    font-size: 100%;
+}
+
+a.externo:after {
+    content: '00A0\1F517';
+}
+
+:root {
+    --cor00: #E1DDDA;
+    --cor01: #F1EDEB;
+    --cor02: #E4DCD1;
+    --cor03: #B1977A;
+    --cor06: #615242;
+    --cor04: #040102;
+    --cor05: #CEA35F;
+
+    --fontepadrao: "Cairo", sans-serif;
+    --font0: "Poppins", sans-serif;
+    --font1: 'Cinzel Decorative', 'serif';
+    --font2: "Arima", arial;
+
+}
+
+body {
+    background-color: var(--cor00);
+    font-family: var(--font0);
+    font-weight: 540;
+}
+
+header {
+    background-color: var(--cor00);
+    min-height: 150px;
+    text-align: center;
+    padding: 40px;
+}
+
+header div.foto-principal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header  p {
+    color: var(--cor06);
+    font-weight: bold;
+    font-size: 1.4em;
+    max-width: 500px;
+    margin: 20px 0;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+main {
+    margin: auto;
+    min-width: 300px;
+    max-width: 1000px;
+    padding: 0 1%;
+    margin-bottom: 30px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#agendamento{
+    background-image: url('../img/agendamentos.png');
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+#curso{
+    background-image: url('../img/curso.png');
+    background-image: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+#fundo01 {
+    background-image: url('../img/fundo01.png');
+    background-size: cover;
+    overflow: hidden;
+}
+
+#fundo02 {
+    background-image: url('../img/fundo02.png');
+    background-size: cover;
+    overflow: hidden;
+}
+
+#fundo03 {
+    background-image: url('../img/fundo01.png');
+    background-size: cover;
+    overflow: hidden;
+}
+
+.main-box {
+    height: 200px;
+    margin: 20px 0px;
+    border-radius: 10px;
+    transition: .2s;
+    box-shadow: 0px 0px 8px #00000027 inset;
+}
+
+.main-box:hover {
+    transform: scale(.95);
+    transition: .2s;
+    box-shadow: 0px 0px 8px #0000005d inset;
+}
+
+.main-box:active {
+    transform: scale(0.98);
+    transition: .2s;
+    box-shadow: 0px 0px 8px 3px #0000007a inset;
+}
+
+
+main div.contato {
+    height: 150px;
+    margin-top: 60px;
+    border-radius: 10px;
+    transition: .2s;
+}
+
+main div.contato01:hover {
+    border-radius: 10px;
+    transform: scale(.95);
+    transition: .2s;
+    box-shadow: 0px 0px 8px #0000003f inset;
+}
+
+main div.contato01 {
+    height: 50px;
+    border: 1px solid #615242;
+    margin-top: 20px;
+    border-radius: 10px;
+    transition: .2s;
+}
+
+main div.linha {
+    margin-top: 40px;
+    height: 1px;
+
+    background-image: url();
+}
+
+main div.main-imagem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin-top: 40px;
+}
+
+main div.sobre {
+    padding: 40px 8%;
+    margin-top: 40px;
+    text-align: justify;
+    line-height: 25px;
+    color: var(--cor06);
+}
+
+footer {
+    color: white;
+    background-color: var(--cor03);
+    text-align: center;
+    font-size: .8em;
+    padding: 20px;
+    line-height: 20px;
+}
