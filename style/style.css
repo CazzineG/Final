@@ -77,14 +77,14 @@ main {
 }
 
 #agendamento{
-    background-image: url('../img/agendamentos.png');
+    background-image: url('img/agendamentos.png');
     background-size: cover;
     background-position: center;
     overflow: hidden;
 }
 
 #curso{
-    background-image: url('../img/curso.png');
+    background-image: url('/img/curso.png');
     background-image: cover;
     background-position: center;
     overflow: hidden;
@@ -97,13 +97,13 @@ main {
 }
 
 #fundo02 {
-    background-image: url('../img/fundo02.png');
+    background-image: url('img/fundo02.png');
     background-size: cover;
     overflow: hidden;
 }
 
 #fundo03 {
-    background-image: url('../img/fundo01.png');
+    background-image: url('..img/fundo01.png');
     background-size: cover;
     overflow: hidden;
 }
